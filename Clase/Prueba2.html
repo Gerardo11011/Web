@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <!-- DOCUMENTO EN EL QUE SE VERAN DIFERENTES TIPOS DE INPUTS -->
+  <!-- los inputs de aqui son semantics elements -->
+  <!-- Otros tipos de inputs no vistos aqui
+  1.-date 2.-time 3.-color 4.-url 5.-email 6.-week 7.-tel /.-number 9.-mage 10.-reset -->
+  <body>
+    <!-- Esto es para crear un form -->
+    <form class="form1 form2" action="index.html" method="post" id="form1">
+      <fieldset>
+        <!-- Legend sirve para el titulo del form -->
+          <legend>
+            title of the form
+          </legend>
+          <!-- Label sirve para texto -->
+          <label for="textinput">
+            username:
+            <!-- Input sirve para crear un cuadro e introducir un input, el id tiene que ser igual al del label -->
+            <input type="text" id="textinput" value="Gerardo"/>
+          </label>
+          <!-- br sirve como el \n de c++, salto de linea -->
+          <br>
+
+          <!-- el id tiene que ser igual al del label -->
+          <label for="passwordInput">
+            Password
+            <input type="password" id="passwordInput"/>
+          </label>
+          <br>
+
+          <!-- Label para crear un label para seleccionar tipo ciculo -->
+          <!-- se crea un label masculino -->
+          <label for="radio1">
+            Masculine:
+            <input type="radio" id="radio1" name="gender" value="M"/>
+          </label>
+          <br>
+
+          <!-- se crea un label femenino -->
+          <label for="radio2">Femenine:
+          <input type="radio" id="radio2" name="gender" value="F"/>
+        </label>
+        <br>
+
+        <!-- Se crea un checkbox para seleccionar una de las opciones -->
+        <label for="checkbox1">
+          <input type="checkbox" name="option" id="checkbox1"/>
+          Option1
+        </label>
+        <br>
+
+        <!-- Se crear otro checkbox -->
+        <label for="checkbox2">
+          <input type="checkbox" name="option" id="checkbox2"/>
+          option 2
+        </label>
+        <br>
+
+        <!-- Sirve para crear un boton de submitInput -->
+        <label for="submitInput">
+          <input type="submit" id="submitInput" value="submit"/>
+        </label>
+      </fieldset>
+    </form>
+
+    <!-- se crea un boton de tipo submit para subir el form -->
+    <button type="submit">
+      submit
+    </button>
+  </body>
+</html>
+
+<!-- IDEA: Main INVESTIGAR -->
+
+<!-- ESTOS ELEMENTOS NO SON SEMANTICOS -->
+<!-- <div> </div> -->
+<!-- <span> </span> -->
