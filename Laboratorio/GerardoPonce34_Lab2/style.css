@@ -1,0 +1,73 @@
+body{
+  text-align: left;
+  background: rgb(51, 153, 255);
+}
+
+ul, li{
+  list-style-position: inside;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad{
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  border: solid;
+  padding: 5px;
+}
+
+.div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+
+}
+
+@media screen and (min-width: 601px){
+  .Fuente{
+    font-size: 80px;
+    text-align: center;
+    font-family: "Didot", serif;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .Fuente{
+    font-size: 10vw;
+    text-align: center;
+    font-family: "Didot", Times, serif;
+
+  }
+}
+
+@media screen and (min-width: 601px){
+  .subtitulo{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Didot", Times, serif;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .subtitulo{
+    font-size: 8vw;
+    text-align: center;
+    font-family: "Didot", Times, serif;
+  }
+}
+
+.contacto{
+  text-align: right;
+  color: #000000;
+  font-weight: bold;
+}
+
+.descripcion{
+  text-align: center;
+  font-style: italic;
+}
